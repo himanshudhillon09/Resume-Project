@@ -1,0 +1,77 @@
+a{
+    margin: 10px;
+    text-decoration :none;
+}
+nav{
+    text-align: center;
+}
+
+body {
+ background-color: rgb(121 238 160);
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#about {
+    
+    text-align: center;
+   width: 50%;
+   margin-left: 25%;
+    margin-top: 20vh;
+    
+}
+
+#image  {
+   height: 20rem;
+   width : 20rem ;
+  margin-top: -200px;
+}
+
+#image img{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%; 
+    margin-left:80%;
+    margin-bottom: -310px;
+    border: rgb(3, 188, 235) solid 3px;
+    
+    
+}
+
+#about h1{
+    margin-bottom: 0px;
+}
+
+#education{
+    margin-left: 25%;
+    text-align: left;
+    margin-top: 70px;
+}
+#skills{
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 25%;
+}
+#projects{
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 25%;
+}
+
+#contacts {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 25%;
+}
+
+img{
+    
+   height: 50px;
+   width: 50px;
+  border-radius: 30%;
+  margin-right: -20px;
+}
