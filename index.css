@@ -1,5 +1,5 @@
 a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 10px;
     text-decoration :none;
 }
@@ -31,24 +31,22 @@ h1{
 #about {
     
     text-align: center;
-   width: 50%;
+    width: 50%;
    margin-left: 25%;
-    margin-top: -300px;
    position: relative;
 }
 
 #image  {
-    
-   height: 15vh ;
-   width : 15vw ;
+    margin-top: -240px;
+   height: 6vh ;
   margin-bottom: 350px;
 }
 
 #image img{
     
-    margin-left: 180px;
-    height: 55vh;
-    width: 25vw;
+    margin-left: 37%;
+    height: 49vh;
+    width: 400px;
     border-radius: 70%; 
     border: white solid 3px;
   
@@ -96,7 +94,7 @@ footer {
     text-align: left;
     margin-top: 200px;
     background: linear-gradient( to bottom , rgb(18 56 167),rgb(36 33 198),rgb(46, 10, 35)  );
-    height: 408px;
+    height: auto;
     
 }
 
@@ -138,12 +136,13 @@ button[type="submit"] {
 
 
   #info i{
+      display: inline;
       position: relative;
-      font-size: 1.7rem;;
+      font-size: 1rem;;
       font-weight: 700;
   }
   b{
-      font-size: 1.3rem;
+      font-size: 1rem;
   }
   #info a{
       font-weight: bold;
