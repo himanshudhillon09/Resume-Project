@@ -1,151 +1,130 @@
-a{
-    font-size: 1rem;
-    margin: 10px;
-    text-decoration :none;
-}
-nav{
-    text-align: center;
-}
-
- i{
-
-     display: block;
-     font-size: 1.7rem;
-     font-weight: lighter;
-     margin-bottom: 20px;
- }
-
-
-body {
- font-size: 1rem;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-background-color: ghostwhite;
-}
-
-h1{
-    font-size: 2rem;
-    text-decoration: underline;
-    margin-bottom: 2px;
-}
-
-#about {
-    
-    text-align: center;
-    width: 50%;
-   margin-left: 25%;
-   position: relative;
-}
-
-#image  {
-    margin-top: -240px;
-   height: 6vh ;
-  margin-bottom: 350px;
-}
-
-#image img{
-    
-    margin-left: 37%;
-    height: 49vh;
-    width: 400px;
-    border-radius: 70%; 
-    border: white solid 3px;
-  
-    
-}
-#background img {
-    margin-top: 20px;
-   height: 50vh;
-    width: 100%;
-    border-radius: 0%;
-}
-
-
-#education{
-    margin-left: 25%;
-    text-align: left;
-    margin-top: 170px;
-}
-#skills{
-    text-align: left;
-    margin-top: 120px;
-    margin-left: 25%;
-}
-#projects{
-    text-align: left;
-    margin-top: 120px;
-    margin-left: 25%;
-}
-
-
-
-
-
-
-span{
-    display: block;
-    font-weight: 800;
-    font-size: 2.5rem;
-    text-align: center;
-
-}
-footer {
-    background: linear-gradient( to top right , rgb(18 49 39),rgb(31 19 221),rgb(142 20 105 / 76%) );
-
-    text-align: left;
-    margin-top: 200px;
-    background: linear-gradient( to bottom , rgb(18 56 167),rgb(36 33 198),rgb(46, 10, 35)  );
-    height: auto;
-    
-}
-
-
-#leave-message{
-    display: inline-block;
-    margin-left: 10%;
-    width: 40%;
-    margin-top: -217px;
-}
-
-
-h2{
-
-    font-weight: 700;
-}
-
-
-
-button[type="submit"] {
-
-    font-size: 1.2rem;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-   margin-left: 25px;
-  }
-
-  
-  #info{
-
-       display: inline-block;
-       margin-left: 78%;
-       width: 20%;
-    margin-top: 93px;
-  }
-
-
-
-  #info i{
-      display: inline;
-      position: relative;
-      font-size: 1rem;;
-      font-weight: 700;
-  }
-  b{
-      font-size: 1rem;
-  }
-  #info a{
-      font-weight: bold;
-      color: black;
-  }
-  
+        a {
+            font-size: 1rem;
+            margin: 10px;
+            text-decoration: none;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        i {
+            display: block;
+            font-size: 1.7rem;
+            font-weight: lighter;
+            margin-bottom: 20px;
+        }
+        
+        body {
+            font-size: 1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: ghostwhite;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-decoration: underline;
+            margin-bottom: 2px;
+        }
+        
+        #about {
+            text-align: center;
+            width: 50%;
+            margin-left: 25%;
+            position: relative;
+        }
+        
+        #background img {
+            margin-top: 20px;
+            height: 22rem;
+            width: 100%;
+            border-radius: 0%;
+        }
+        
+        #image img {
+            margin-left: 36%;
+            height: auto;
+            width: 24vw;
+            border-radius: 70%;
+            border: rgba(255, 255, 255, 0.993) solid 3px;
+            position: relative;
+            margin-top: -15%;
+        }
+        
+        #education {
+            margin-left: 25%;
+            text-align: left;
+            margin-top: 170px;
+        }
+        
+        #skills {
+            text-align: left;
+            margin-top: 120px;
+            margin-left: 25%;
+        }
+        
+        #projects {
+            text-align: left;
+            margin-top: 120px;
+            margin-left: 25%;
+        }
+        
+        span {
+            display: block;
+            font-weight: 800;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        
+        footer {
+            background: linear-gradient(to top right, rgb(24, 218, 156), rgb(46, 236, 8), rgba(243, 10, 2, 0.76));
+            text-align: left;
+            margin-top: 200px;
+            background: linear-gradient(to bottom, rgb(10, 226, 226), rgb(8, 252, 252), rgb(202, 5, 143));
+            height: auto;
+        }
+        
+        #leave-message {
+            display: inline-block;
+            width: auto;
+            margin-left: 6%;
+            margin-top: -28vh;
+            position: relative;
+            border: 3px solid rgb(255, 251, 0);
+            padding: 15px 50px 30px 70px;
+            margin-bottom: 40px;
+            border-radius: 20%;
+        }
+        
+        h2 {
+            font-weight: 700;
+        }
+        
+        button[type="submit"] {
+            font-size: 1.2rem;
+            background-color: black;
+            color: rgb(241, 3, 3);
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 25px;
+            border-radius: 6%;
+        }
+        
+        #info {
+            display: inline-block;
+            margin-left: 78%;
+            margin-top: 20vh;
+            position: relative;
+        }
+        
+        #info i {
+            display: inline;
+            font-size: 1.9rem;
+            font-weight: 700;
+        }
+        
+        #info a {
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            margin: 15px;
+        }
